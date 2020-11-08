@@ -27,7 +27,11 @@
         latin:keyWidth="10%p"
     >
         <include
-            latin:keyboardLayout="@xml/rowkeys_hebrew1" />
+            latin:keyboardLayout="@xml/rowkeys_hebrew1"
+            latin:keyXPos="5%p" />
+        <Key
+            latin:keyStyle="deleteKeyStyle"
+            latin:keyWidth="fillRight" />
     </Row>
     <Row
         latin:keyWidth="10%p"
@@ -39,10 +43,8 @@
         latin:keyWidth="10%p"
     >
         <include
-            latin:keyboardLayout="@xml/rowkeys_hebrew3" />
-        <Key
-            latin:keyStyle="deleteKeyStyle"
-            latin:keyWidth="fillRight" />
+            latin:keyboardLayout="@xml/rowkeys_hebrew3"
+            latin:keyXPos="5%p" />
     </Row>
     <include
         latin:keyboardLayout="@xml/row_qwerty4" />
