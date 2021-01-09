@@ -51,7 +51,7 @@
                 latin:keyStyle="languageSwitchKeyStyle" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
-                latin:keyWidth="50%p" />
+                latin:keyWidth="60%p" />
         </case>
         <!-- languageSwitchKeyEnabled="false" -->
         <default>
